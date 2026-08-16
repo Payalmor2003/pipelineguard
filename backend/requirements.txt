@@ -1,0 +1,14 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.6
+sentence-transformers>=3.0.1
+faiss-cpu>=1.9.0
+rank-bm25>=0.2.2
+langgraph>=0.2.28
+langchain-core>=0.3.6
+groq>=0.11.0
+python-dotenv>=1.0.1
+gitpython>=3.1.43
+pydantic>=2.9.2
+numpy
+# Only needed if you also install the tenacity-based demo fixtures locally:
+# tenacity, aiolimiter (used in test snippets, not required by the app itself)
